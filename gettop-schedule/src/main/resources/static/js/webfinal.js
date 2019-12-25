@@ -1,0 +1,1 @@
+var contextPath = "http://" + location.host + "/";
