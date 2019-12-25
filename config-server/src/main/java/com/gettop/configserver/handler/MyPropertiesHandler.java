@@ -39,6 +39,7 @@ public class MyPropertiesHandler implements PropertySourceLoader {
             inputStream.close();
         } catch (IOException e) {
             //logger.error("load inputstream failure...", e);
+
             System.out.println("load inputstream failure...");
         } finally {
             if (inputStream != null) {
