@@ -1,0 +1,33 @@
+server:
+  port: 8765
+#  tomcat:
+#    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: config-server
+  #配置中心
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/siken/springcloud.git
+          search-paths: config
+          username: 361626886@qq.com
+          password: Sp520109
+          default-label: master
+          basedir: ./configRepo/
+          force-pull: true
+
+  # 解决读取配置文件乱码问题
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+
+# 注册中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

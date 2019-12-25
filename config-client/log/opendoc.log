@@ -1,0 +1,124 @@
+2019-12-18 08:17:10.430 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting ConfigClientApplication on WFIT6001 with PID 16976 (D:\project\workspace\config-client\target\classes started by 00047739 in D:\project\workspace\config-client)
+2019-12-18 08:17:10.466 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-12-18 08:17:10.567 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-18 08:17:10.567 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-18 08:17:11.981 - INFO  [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-18 08:17:12.020 - INFO  [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-12-18 08:17:12.946 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-18 08:17:13.971 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-12-18 08:17:14.006 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-18 08:17:14.009 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-12-18 08:17:14.010 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-18 08:17:14.353 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-12-18 08:17:14.354 - INFO  [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3784 ms
+2019-12-18 08:17:14.647 - INFO  [  restartedMain] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-18 08:17:14.927 - WARN  [  restartedMain] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'routeController': Unsatisfied dependency expressed through field 'gatewayRouteService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteService': Unsatisfied dependency expressed through field 'gatewayRouteDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteDao' defined in file [D:\project\workspace\config-client\target\classes\com\gettop\configclient\business\dao\GatewayRouteDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-18 08:17:14.937 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-12-18 08:17:15.214 - INFO  [  restartedMain] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-18 08:47:26.478 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting ConfigClientApplication on WFIT6001 with PID 17144 (D:\project\workspace\config-client\target\classes started by 00047739 in D:\project\workspace\config-client)
+2019-12-18 08:47:26.494 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-12-18 08:47:26.565 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-18 08:47:26.566 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-18 08:47:27.544 - INFO  [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-18 08:47:27.568 - INFO  [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-12-18 08:47:28.031 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-18 08:47:28.519 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-12-18 08:47:28.535 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-18 08:47:28.536 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-12-18 08:47:28.537 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-18 08:47:28.706 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-12-18 08:47:28.707 - INFO  [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2141 ms
+2019-12-18 08:47:28.904 - INFO  [  restartedMain] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-18 08:47:29.067 - WARN  [  restartedMain] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'routeController': Unsatisfied dependency expressed through field 'gatewayRouteService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteService': Unsatisfied dependency expressed through field 'gatewayRouteDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteDao' defined in file [D:\project\workspace\config-client\target\classes\com\gettop\configclient\business\dao\GatewayRouteDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-18 08:47:29.073 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-12-18 08:47:29.212 - INFO  [  restartedMain] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-18 08:52:33.645 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting ConfigClientApplication on WFIT6001 with PID 18536 (D:\project\workspace\config-client\target\classes started by 00047739 in D:\project\workspace\config-client)
+2019-12-18 08:52:33.663 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-12-18 08:52:33.754 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-18 08:52:33.755 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-18 08:52:35.049 - INFO  [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-18 08:52:35.078 - INFO  [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-12-18 08:52:35.661 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-18 08:52:36.310 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-12-18 08:52:36.340 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-18 08:52:36.342 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-12-18 08:52:36.348 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-18 08:52:36.626 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-12-18 08:52:36.627 - INFO  [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2871 ms
+2019-12-18 08:52:36.964 - INFO  [  restartedMain] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-18 08:52:37.204 - WARN  [  restartedMain] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'routeController': Unsatisfied dependency expressed through field 'gatewayRouteService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteService': Unsatisfied dependency expressed through field 'gatewayRouteDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteDao' defined in file [D:\project\workspace\config-client\target\classes\com\gettop\configclient\business\dao\GatewayRouteDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-18 08:52:37.210 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-12-18 08:52:37.359 - INFO  [  restartedMain] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-18 13:56:36.229 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting ConfigClientApplication on WFIT6001 with PID 15052 (D:\project\workspace\config-client\target\classes started by 00047739 in D:\project\workspace\config-client)
+2019-12-18 13:56:36.267 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-12-18 13:56:36.376 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-18 13:56:36.377 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-18 13:56:37.987 - INFO  [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-18 13:56:38.019 - INFO  [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-12-18 13:56:38.693 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-18 13:56:39.292 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-12-18 13:56:39.312 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-18 13:56:39.313 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-12-18 13:56:39.315 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-18 13:56:39.606 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-12-18 13:56:39.606 - INFO  [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3228 ms
+2019-12-18 13:56:39.892 - INFO  [  restartedMain] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-18 13:56:40.122 - WARN  [  restartedMain] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'routeController': Unsatisfied dependency expressed through field 'gatewayRouteService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteService': Unsatisfied dependency expressed through field 'gatewayRouteDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayRouteDao' defined in file [D:\project\workspace\config-client\target\classes\com\gettop\configclient\business\dao\GatewayRouteDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-18 13:56:40.127 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-12-18 13:56:40.275 - INFO  [  restartedMain] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-18 14:01:14.567 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting ConfigClientApplication on WFIT6001 with PID 11664 (D:\project\workspace\config-client\target\classes started by 00047739 in D:\project\workspace\config-client)
+2019-12-18 14:01:14.590 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-12-18 14:01:14.668 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-18 14:01:14.669 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-18 14:01:15.964 - INFO  [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-18 14:01:15.993 - INFO  [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-12-18 14:01:16.597 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-18 14:01:17.284 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8767 (http)
+2019-12-18 14:01:17.309 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8767"]
+2019-12-18 14:01:17.312 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-12-18 14:01:17.313 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-18 14:01:17.757 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-12-18 14:01:17.758 - INFO  [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3089 ms
+2019-12-18 14:01:18.038 - INFO  [  restartedMain] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-18 14:01:18.479 - INFO  [  restartedMain] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2019-12-18 14:01:19.014 - WARN  [  restartedMain] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'systemConfig' in value "${systemConfig}"
+2019-12-18 14:01:19.019 - INFO  [  restartedMain] c.a.d.p.DruidDataSource        : {dataSource-1} closed
+2019-12-18 14:01:19.023 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2019-12-18 14:01:19.046 - INFO  [  restartedMain] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-18 14:02:20.674 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting ConfigClientApplication on WFIT6001 with PID 17528 (D:\project\workspace\config-client\target\classes started by 00047739 in D:\project\workspace\config-client)
+2019-12-18 14:02:20.693 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-12-18 14:02:20.783 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-18 14:02:20.784 - INFO  [  restartedMain] o.s.b.l.DeferredLog            : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-18 14:02:22.559 - INFO  [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-18 14:02:22.588 - INFO  [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-12-18 14:02:23.243 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-18 14:02:23.850 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8767 (http)
+2019-12-18 14:02:23.867 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8767"]
+2019-12-18 14:02:23.869 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-12-18 14:02:23.870 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-18 14:02:24.072 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-12-18 14:02:24.072 - INFO  [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3288 ms
+2019-12-18 14:02:24.244 - INFO  [  restartedMain] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-18 14:02:24.579 - INFO  [  restartedMain] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2019-12-18 14:02:25.192 - INFO  [  restartedMain] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-18 14:02:25.299 - INFO  [  restartedMain] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2019-12-18 14:02:25.410 - WARN  [  restartedMain] o.t.t.TemplateMode             : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-12-18 14:02:25.654 - INFO  [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2019-12-18 14:02:25.697 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8767"]
+2019-12-18 14:02:25.728 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8767 (http) with context path ''
+2019-12-18 14:02:25.733 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Started ConfigClientApplication in 5.799 seconds (JVM running for 10.219)
+2019-12-18 14:02:45.972 - INFO  [nio-8767-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-18 14:02:45.973 - INFO  [nio-8767-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-12-18 14:02:45.985 - INFO  [nio-8767-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2019-12-18 14:03:03.982 - INFO  [      Thread-21] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-18 14:03:03.992 - INFO  [      Thread-21] c.a.d.p.DruidDataSource        : {dataSource-1} closed
